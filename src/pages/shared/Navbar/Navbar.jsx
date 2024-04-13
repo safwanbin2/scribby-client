@@ -10,7 +10,7 @@ const Navbar = () => {
   ];
   return (
     <>
-      <div className="w-full">
+      <div className="w-full bg-transparent absolute top-0 left-0">
         <header className="py-8 z-10 w-11/12 mx-auto">
           <nav className="flex justify-between items-center max-container">
             <Link

@@ -1,9 +1,10 @@
 import hero from "../../assets/hero.json";
 import Lottie from "lottie-react";
+import orbit from "../../assets/orbit.json";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen w-full ">
+    <div className="min-h-screen w-full py-20">
       <div className="h-full w-11/12 mx-auto grid grid-cols-2 justify-center items-center">
         <div className="">
           <Lottie loop={true} animationData={hero} />
