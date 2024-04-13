@@ -13,3 +13,30 @@
 .p-btn:hover {
   background-image: linear-gradient(#681cff, #b01f6c);
 }
+
+.hero-title {
+  background: -webkit-linear-gradient(to right, #681cff, #b01f6c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer-title {
+  background-image: url("https://i.natgeofe.com/n/dde3c72a-7612-451e-9796-5498d6386a04/yourshot-underwater-1869254.jpg");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 10rem;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+  background-size: cover;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.input-item::placeholder {
+  color: white; /* Set the color of the placeholder text */
+}
