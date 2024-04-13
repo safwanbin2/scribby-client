@@ -1,6 +1,7 @@
 import React from "react";
 
 const TheEcosystem = () => {
+  // soon
   return (
     <div className="w-full py-20">
       <div className="w-11/12 mx-auto flex flex-col justify-center items-center ">
