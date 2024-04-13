@@ -40,3 +40,7 @@
 .input-item::placeholder {
   color: white; /* Set the color of the placeholder text */
 }
+
+.rounded-box {
+  border-radius: 15%;
+}
