@@ -6,14 +6,14 @@ const Footer = () => {
   return (
     <div className="w-full h-auto bg-secondary py-10">
       <div className="w-11/12 mx-auto">
-        <div className="flex justify-between items-center">
+        <div className="flex flex-col md:flex-row justify-between items-center md:gap-16">
           <Link
             style={{ fontFamily: "Lobster, sans-serif" }}
-            className="footer-title"
+            className="footer-title text-[6rem] md:text-[10rem]"
           >
             Cribby
           </Link>
-          <div className="space-y-8">
+          <div className="space-y-8 w-full">
             <div className="font-medium">
               <h4 className="text-pink">
                 Get the latest updates on products and developments.
@@ -34,7 +34,7 @@ const Footer = () => {
             </form>
           </div>
         </div>
-        <div className="flex justify-between items-start py-10 border-gray border-b-2 border-dashed">
+        <div className="grid grid-cols-2 gap-10 md:gap-0 md:flex justify-between items-start py-10 border-gray border-b-2 border-dashed">
           <div className="space-y-4">
             <h2 className="text-2xl font-semibold text-pink">
               Getting Started
@@ -108,7 +108,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="flex justify-between items-start py-10 ">
+        <div className="flex flex-col md:flex-row gap-10 md:gap-0 justify-between items-start py-10 ">
           <div className="space-y-4">
             <h2 className="text-2xl font-semibold text-pink">
               Build on Cribby

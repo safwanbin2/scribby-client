@@ -20,12 +20,11 @@
   -webkit-text-fill-color: transparent;
 }
 .footer-title {
-  background-image: url("https://i.natgeofe.com/n/dde3c72a-7612-451e-9796-5498d6386a04/yourshot-underwater-1869254.jpg");
+  background-image: url("./assets/space.jpg");
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 10rem;
-  text-align: center;
+  text-align: start;
   font-weight: bold;
   text-transform: uppercase;
   font-weight: 800;
@@ -40,7 +39,27 @@
 .input-item::placeholder {
   color: white; /* Set the color of the placeholder text */
 }
+.input-primary::placeholder {
+  color: #681cff; /* Set the color of the placeholder text */
+}
 
 .rounded-box {
   border-radius: 15%;
+}
+.scrolling-text-container {
+  overflow: hidden;
+}
+
+.scrolling-text {
+  animation: scroll-left 20s linear infinite;
+  white-space: nowrap;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }

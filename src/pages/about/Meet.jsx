@@ -5,9 +5,9 @@ import meet from "../../assets/meet.json";
 const Meet = () => {
   return (
     <div className="w-full py-20 bg-gradient-to-b from-secondary via-neutral to-secondary">
-      <div className="w-11/12 grid grid-cols-2 justify-center items-center mx-auto">
+      <div className="w-11/12 flex flex-col-reverse md:grid grid-cols-2 justify-center items-center mx-auto">
         <div className="col-span-1 space-y-5 text-white">
-          <h2 className="text-6xl font-bold">Meet Cribby</h2>
+          <h2 className="text-4xl md:text-6xl font-bold">Meet Cribby</h2>
           <h4 className="text-xl">
             Reef is the future blockchain for DeFi, NFTs, and gaming
           </h4>
@@ -24,7 +24,7 @@ const Meet = () => {
           </p>
         </div>
         <Lottie
-          className="col-span-1 h-screen transform rotate-180"
+          className="col-span-1 md:h-screen transform rotate-180"
           animationData={meet}
         />
       </div>
