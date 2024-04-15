@@ -114,8 +114,7 @@ const Footer = () => {
               Build on Cribby
             </h2>
             <p className="text-white">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae,
-              laboriosam.
+         Airbnb is a global online marketplace that connects travelers seeking unique accommodations with hosts offering a variety of lodging options. Founded in 2008 by Brian Chesky, Joe Gebbia, and Nathan Blecharczyk.
             </p>
             <button className="p-btn rounded-full">Developer guide</button>
           </div>

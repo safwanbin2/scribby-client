@@ -18,9 +18,7 @@ const TheEcosystem = () => {
             <div className="space-y-4">
               <h3 className="text-pink text-2xl font-medium">Cribby Card</h3>
               <p className="font-medium">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis mollitia illum aspernatur esse aut commodi aliquam
-                itaque dignissimos officia alias.
+           Airbnb is a global online marketplace that connects travelers seeking unique accommodations with hosts offering a variety of lodging options. Founded in 2008 by Brian Chesky, Joe Gebbia, and Nathan Blecharczyk.
               </p>
             </div>
           </div>
@@ -33,9 +31,7 @@ const TheEcosystem = () => {
             <div className="space-y-4">
               <h3 className="text-pink text-2xl font-medium">Cribby Card</h3>
               <p className="font-medium">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis mollitia illum aspernatur esse aut commodi aliquam
-                itaque dignissimos officia alias.
+           Airbnb is a global online marketplace that connects travelers seeking unique accommodations with hosts offering a variety of lodging options. Founded in 2008 by Brian Chesky, Joe Gebbia, and Nathan Blecharczyk.
               </p>
             </div>
           </div>
@@ -48,9 +44,7 @@ const TheEcosystem = () => {
             <div className="space-y-4">
               <h3 className="text-pink text-2xl font-medium">Cribby Card</h3>
               <p className="font-medium">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis mollitia illum aspernatur esse aut commodi aliquam
-                itaque dignissimos officia alias.
+           Airbnb is a global online marketplace that connects travelers seeking unique accommodations with hosts offering a variety of lodging options. Founded in 2008 by Brian Chesky, Joe Gebbia, and Nathan Blecharczyk.
               </p>
             </div>
           </div>
@@ -63,9 +57,7 @@ const TheEcosystem = () => {
             <div className="space-y-4">
               <h3 className="text-pink text-2xl font-medium">Cribby Card</h3>
               <p className="font-medium">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis mollitia illum aspernatur esse aut commodi aliquam
-                itaque dignissimos officia alias.
+           Airbnb is a global online marketplace that connects travelers seeking unique accommodations with hosts offering a variety of lodging options. Founded in 2008 by Brian Chesky, Joe Gebbia, and Nathan Blecharczyk.
               </p>
             </div>
           </div>

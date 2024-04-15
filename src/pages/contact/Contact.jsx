@@ -10,8 +10,33 @@ const Contact = () => {
     reset,
     formState: { errors },
   } = useForm();
-  const handleContact = (data) => {
-    console.log(data);
+  const handleContact = async  (data)  => {
+    console.log('data',data);
+    const { name, email, message } = data;
+    try {
+      const response = await fetch('https://server-r7jvcbvfl-riad009s-projects.vercel.app/api/cribby/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ name, email, message })
+      });
+
+      if (response.ok) {
+        console.log('Email sent successfully');
+        alert('Email sent successfully')
+        // Handle success, maybe show a success message to the user
+      } else {
+        console.error('Failed to send email');
+        alert('Failed to send email')
+        // Handle error, maybe show an error message to the user
+      }
+    } catch (error) {
+      console.error('Error sending email:', error);
+      alert('Error sending email')
+      // Handle error, maybe show an error message to the user
+    }
+
   };
   return (
     <div className="w-full py-20 ">
@@ -22,8 +47,7 @@ const Contact = () => {
               Get in touch with us
             </h2>
             <p className="text-xl ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-              officiis quam? Repellat accusamus quis dicta voluptas cum
+         Airbnb is a global online marketplace that connects travelers seeking unique accommodations with hosts offering a variety of lodging options. Founded in 2008 by Brian Chesky, Joe Gebbia, and Nathan Blecharczyk.
             </p>
           </div>
           <form

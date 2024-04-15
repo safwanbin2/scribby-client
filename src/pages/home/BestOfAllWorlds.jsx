@@ -10,9 +10,11 @@ const BestOfAllWorlds = () => {
         <div className="w-11/12 mx-auto text-white text-center space-y-5">
           <h2 className="text-5xl font-medium">Best of all worlds</h2>
           <p className="text-xl ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque{" "}
+          Airbnb is a global online marketplace that connects travelers {" "}
             <br />
-            dolores fuga atque non molestiae accusantium?
+            Airbnb is a global online marketplace that connects travelers seeking unique .
+
+
           </p>
         </div>
         <div className="scrolling-text-container">
@@ -49,9 +51,7 @@ const BestOfAllWorlds = () => {
               <div className="space-y-4">
                 <h3 className="text-pink text-2xl font-medium">Cribby Card</h3>
                 <p className="font-medium text-white tracking-wide">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veritatis mollitia illum aspernatur esse aut commodi aliquam
-                  itaque dignissimos officia alias.
+             Airbnb is a global online marketplace that connects travelers seeking unique accommodations with hosts offering a variety of lodging options. Founded in 2008 by Brian Chesky, Joe Gebbia, and Nathan Blecharczyk.
                 </p>
               </div>
             </div>
@@ -62,9 +62,7 @@ const BestOfAllWorlds = () => {
               <div className="space-y-4">
                 <h3 className="text-pink text-2xl font-medium">Cribby Card</h3>
                 <p className="font-medium text-white tracking-wide">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veritatis mollitia illum aspernatur esse aut commodi aliquam
-                  itaque dignissimos officia alias.
+             Airbnb is a global online marketplace that connects travelers seeking unique accommodations with hosts offering a variety of lodging options. Founded in 2008 by Brian Chesky, Joe Gebbia, and Nathan Blecharczyk.
                 </p>
               </div>
             </div>
@@ -75,9 +73,7 @@ const BestOfAllWorlds = () => {
               <div className="space-y-4">
                 <h3 className="text-pink text-2xl font-medium">Cribby Card</h3>
                 <p className="font-medium text-white tracking-wide">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veritatis mollitia illum aspernatur esse aut commodi aliquam
-                  itaque dignissimos officia alias.
+             Airbnb is a global online marketplace that connects travelers seeking unique accommodations with hosts offering a variety of lodging options. Founded in 2008 by Brian Chesky, Joe Gebbia, and Nathan Blecharczyk.
                 </p>
               </div>
             </div>
@@ -88,9 +84,7 @@ const BestOfAllWorlds = () => {
               <div className="space-y-4">
                 <h3 className="text-pink text-2xl font-medium">Cribby Card</h3>
                 <p className="font-medium text-white tracking-wide">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veritatis mollitia illum aspernatur esse aut commodi aliquam
-                  itaque dignissimos officia alias.
+             Airbnb is a global online marketplace that connects travelers seeking unique accommodations with hosts offering a variety of lodging options. Founded in 2008 by Brian Chesky, Joe Gebbia, and Nathan Blecharczyk.
                 </p>
               </div>
             </div>

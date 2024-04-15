@@ -12,15 +12,10 @@ const Meet = () => {
             Reef is the future blockchain for DeFi, NFTs, and gaming
           </h4>
           <p className="text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam,
-            impedit odio! Similique, voluptatum dolores libero dignissimos ipsam
-            sequi repellendus reiciendis consectetur quod beatae esse
+       Airbnb is a global online marketplace that connects travelers seeking unique accommodations with hosts offering a variety of lodging options. Founded in 2008 by Brian Chesky, Joe Gebbia, and Nathan Blecharczyk.
           </p>
           <p className="text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
-            eaque. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Autem natus magnam eos veniam earum beatae sint iste aliquam dolore
-            repellat?
+       Airbnb is a global online marketplace that connects travelers seeking unique accommodations with hosts offering a variety of lodging options. Founded in 2008 by Brian Chesky, Joe Gebbia, and Nathan Blecharczyk.
           </p>
         </div>
         <Lottie
