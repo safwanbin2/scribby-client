@@ -14,7 +14,7 @@ const Contact = () => {
     console.log('data',data);
     const { name, email, message } = data;
     try {
-      const response = await fetch('https://server-r7jvcbvfl-riad009s-projects.vercel.app/api/cribby/contact', {
+      const response = await fetch('https://server-khaki-kappa.vercel.app/api/cribby/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
