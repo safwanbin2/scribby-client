@@ -10,44 +10,47 @@ const Contact = () => {
     reset,
     formState: { errors },
   } = useForm();
-  const handleContact = async  (data)  => {
-    console.log('data',data);
+  const handleContact = async (data) => {
+    console.log("data", data);
     const { name, email, message } = data;
     try {
-      const response = await fetch('https://server-khaki-kappa.vercel.app/api/cribby/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ name, email, message })
-      });
+      const response = await fetch(
+        "https://server-khaki-kappa.vercel.app/api/cribby/contact",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ name, email, message }),
+        }
+      );
 
       if (response.ok) {
-        console.log('Email sent successfully');
-        alert('Email sent successfully')
+        console.log("Email sent successfully");
+        alert("Email sent successfully");
         // Handle success, maybe show a success message to the user
       } else {
-        console.error('Failed to send email');
-        alert('Failed to send email')
+        console.error("Failed to send email");
+        alert("Failed to send email");
         // Handle error, maybe show an error message to the user
       }
     } catch (error) {
-      console.error('Error sending email:', error);
-      alert('Error sending email')
+      console.error("Error sending email:", error);
+      alert("Error sending email");
       // Handle error, maybe show an error message to the user
     }
-
   };
   return (
     <div className="w-full py-20 ">
-      <div className="w-11/12 flex flex-col-reverse md:grid grid-cols-2 justify-center items-center mx-auto ">
+      <div className="min-h-screen w-11/12 md:w-10/12 lg:w-[1100px] mx-auto flex flex-col-reverse md:grid grid-cols-2 justify-center items-center ">
         <div className="space-y-5">
           <div className="space-y-5">
             <h2 className="text-4xl md:text-6xl hero-title font-semibold bg-gradient-to-r from-secondary to-primary">
               Get in touch with us
             </h2>
             <p className="text-xl ">
-         Airbnb is a global online marketplace that connects travelers seeking unique accommodations with hosts offering a variety of lodging options. Founded in 2008 by Brian Chesky, Joe Gebbia, and Nathan Blecharczyk.
+              Airbnb is a global online marketplace that connects travelers
+              seeking unique accommodations.
             </p>
           </div>
           <form

@@ -3,7 +3,7 @@ import React from "react";
 const Brands = () => {
   return (
     <div className="w-full py-5">
-      <div className="grid grid-cols-2 md:grid-cols-5 justify-between items-center w-11/12 mx-auto">
+      <div className="flex items-center flex-wrap justify-between gap-10 w-11/12 md:w-10/12 lg:w-[1100px] mx-auto">
         <a href="">
           <svg
             width="150"

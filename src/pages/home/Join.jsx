@@ -4,7 +4,7 @@ import { IoMdSend } from "react-icons/io";
 const Join = () => {
   return (
     <div className="py-20 w-full">
-      <div className="w-11/12 mx-auto flex justify-center items-start flex-col space-y-16">
+      <div className="w-11/12 md:w-10/12 lg:w-[1100px] mx-auto flex justify-center items-start flex-col space-y-16">
         <h1 className="hero-title bg-gradient-to-r from-secondary to-neutral">
           <span className="text-[5rem] md:text-[10rem] leading-[5rem] md:leading-[10rem]">
             Join the

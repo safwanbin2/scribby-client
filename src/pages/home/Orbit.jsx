@@ -4,8 +4,8 @@ import orbit from "../../assets/orbit.json";
 
 const Orbit = () => {
   return (
-    <div className="py-20 flex justify-center items-center flex-col overflow-hidden space-y-16">
-      <div className="w-11/12 mx-auto flex flex-col justify-center items-center ">
+    <div className="py-20 flex justify-between items-center flex-col overflow-hidden space-y-16">
+      <div className=" w-11/12 md:w-10/12 lg:w-[1100px] mx-auto flex flex-col justify-center items-center ">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center ">
           <div className="">
             <Lottie loop={true} animationData={orbit} />

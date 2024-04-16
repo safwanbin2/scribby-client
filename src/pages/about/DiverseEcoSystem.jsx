@@ -12,7 +12,7 @@ const DiverseEcoSystem = () => {
           Welcome, builders and collaborators, to ReefChain!
         </p>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-16 md:gap-36 w-10/12 mx-auto">
+      <div className="w-11/12 md:w-10/12 lg:w-[1100px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-16 md:gap-36">
         <img className="w-[130px]" src={sqwid} alt="" />
         <img className="w-[130px]" src={sqwid} alt="" />
         <img className="w-[130px]" src={sqwid} alt="" />

@@ -5,7 +5,7 @@ import { IoMdSend } from "react-icons/io";
 const Footer = () => {
   return (
     <div className="w-full h-auto bg-secondary py-10">
-      <div className="w-11/12 mx-auto">
+      <div className=" w-11/12 md:w-10/12 lg:w-[1100px] mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center md:gap-16">
           <Link
             style={{ fontFamily: "Lobster, sans-serif" }}
@@ -108,13 +108,16 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row gap-10 md:gap-0 justify-between items-start py-10 ">
+        <div className="flex flex-col md:flex-row gap-10 justify-between items-start py-10 ">
           <div className="space-y-4">
             <h2 className="text-2xl font-semibold text-pink">
               Build on Cribby
             </h2>
             <p className="text-white">
-         Airbnb is a global online marketplace that connects travelers seeking unique accommodations with hosts offering a variety of lodging options. Founded in 2008 by Brian Chesky, Joe Gebbia, and Nathan Blecharczyk.
+              Airbnb is a global online marketplace that connects travelers
+              seeking unique accommodations with hosts offering a variety of
+              lodging options. Founded in 2008 by Brian Chesky, Joe Gebbia, and
+              Nathan Blecharczyk.
             </p>
             <button className="p-btn rounded-full">Developer guide</button>
           </div>
