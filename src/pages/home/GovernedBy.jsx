@@ -1,6 +1,6 @@
 import React from "react";
 import Lottie from "lottie-react";
-import circle from "../../assets/building.json";
+import ocean from "../../assets/ocean.json";
 import travel from "../../assets/travel.json";
 import { IoMdSend } from "react-icons/io";
 
@@ -13,8 +13,8 @@ const GovernedBy = () => {
             Governed by the <br /> Cribby community
           </h2>
         </div>
-        <div className="w-11/12 md:w-10/12 lg:w-[1100px] mx-auto">
-          <Lottie className="" animationData={circle} />
+        <div className="w-11/12 md:w-10/12 lg:w-[1100px] mx-auto flex justify-center items-center">
+          <Lottie className="w-full md:w-6/12" animationData={ocean} />
         </div>
       </div>
       <div className="py-20 bg-secondary  flex justify-center items-center flex-col overflow-hidden space-y-12">
