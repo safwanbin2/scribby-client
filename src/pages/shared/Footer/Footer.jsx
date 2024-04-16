@@ -6,12 +6,12 @@ const Footer = () => {
   return (
     <div className="w-full h-auto bg-secondary py-10">
       <div className=" w-11/12 md:w-10/12 lg:w-[1100px] mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-center md:gap-16">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center md:gap-16">
           <Link
             style={{ fontFamily: "Lobster, sans-serif" }}
             className="footer-title text-[6rem] md:text-[10rem]"
           >
-            Cribby
+            Cribby.
           </Link>
           <div className="space-y-8 w-full">
             <div className="font-medium">

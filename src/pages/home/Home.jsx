@@ -1,5 +1,6 @@
 import BestOfAllWorlds from "./BestOfAllWorlds";
 import Brands from "./Brands";
+import GovernedBy from "./GovernedBy";
 import Hero from "./Hero";
 import Join from "./Join";
 import Orbit from "./Orbit";
@@ -11,6 +12,7 @@ const Home = () => {
       <Brands />
       <BestOfAllWorlds />
       <Join />
+      <GovernedBy />
       <Orbit />
     </div>
   );

@@ -9,7 +9,7 @@ const Hero = () => {
           <Lottie className="z-0" loop={true} animationData={hero} />
         </div>
         <div className="space-y-4 text-center md:text-start">
-          <h2 className="hero-title text-7xl md:text-[7.5rem] font-semibold bg-gradient-to-r from-secondary to-neutral">
+          <h2 className="hero-title text-7xl md:text-[6rem] font-semibold bg-gradient-to-r from-secondary to-neutral">
             Reliable <br /> Extensible <br /> Effecient <br /> Fast
           </h2>
           <p className="text-3xl text-secondary">

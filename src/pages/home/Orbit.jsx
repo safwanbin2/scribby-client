@@ -11,7 +11,7 @@ const Orbit = () => {
             <Lottie loop={true} animationData={orbit} />
           </div>
           <div className="space-y-4">
-            <h2 className="hero-title text-5xl font-medium bg-gradient-to-r from-secondary to-neutral">
+            <h2 className="hero-title text-4xl md:text-5xl font-medium bg-gradient-to-r from-secondary to-neutral">
               Built with Substrate Framework
             </h2>
             <p className="text-xl text-secondary">
