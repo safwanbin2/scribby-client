@@ -3,15 +3,15 @@ import { IoMdSend } from "react-icons/io";
 
 const Join = () => {
   return (
-    <div className="py-20 w-full">
+    <div className="py-20 w-full overflow-hidden">
       <div className="w-11/12 md:w-10/12 lg:w-[1100px] mx-auto flex justify-center items-start flex-col space-y-16">
         <h1 className="hero-title bg-gradient-to-r from-secondary to-neutral">
-          <span className="text-[5rem] md:text-[10rem] leading-[5rem] md:leading-[10rem]">
+          <span className="text-[4.5rem] md:text-[10rem] leading-[4.5rem] md:leading-[10rem]">
             Join the
           </span>
           <br />
-          <span className="text-[8rem] md:text-[15rem] leading-[8rem] md:leading-[15rem]">
-            Cribby.
+          <span className="text-[4.5rem] md:text-[10rem] lg:text-[12rem] xl:text-[15rem] leading-[4.5rem] md:leading-[10rem] lg:leading-[12rem] xl:leading-[15rem]">
+            ecosystem
           </span>
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-10 md:gap-0">
