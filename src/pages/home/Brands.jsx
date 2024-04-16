@@ -3,11 +3,11 @@ import React from "react";
 const Brands = () => {
   return (
     <div className="w-full py-5">
-      <div className="flex items-center flex-wrap justify-between gap-10 w-11/12 md:w-10/12 lg:w-[1100px] mx-auto">
-        <a href="">
+      <div className="flex items-center justify-center md:justify-between flex-wrap gap-6 md:gap-10 w-11/12 md:w-10/12 lg:w-[1100px] mx-auto">
+        <a className="" href="">
           <svg
             width="150"
-            height="103"
+            height="50"
             viewBox="0 0 510 103"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -19,10 +19,10 @@ const Brands = () => {
             ></path>
           </svg>
         </a>
-        <a href="">
+        <a className="" href="">
           <svg
             width="150"
-            height="103"
+            height="50"
             viewBox="0 0 510 103"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -34,10 +34,10 @@ const Brands = () => {
             ></path>
           </svg>
         </a>
-        <a href="">
+        <a className="" href="">
           <svg
             width="150"
-            height="103"
+            height="50"
             viewBox="0 0 510 103"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -49,10 +49,10 @@ const Brands = () => {
             ></path>
           </svg>
         </a>
-        <a href="">
+        <a className="" href="">
           <svg
             width="150"
-            height="103"
+            height="50"
             viewBox="0 0 510 103"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -64,10 +64,10 @@ const Brands = () => {
             ></path>
           </svg>
         </a>
-        <a href="">
+        <a className="" href="">
           <svg
             width="150"
-            height="103"
+            height="50"
             viewBox="0 0 510 103"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
