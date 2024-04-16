@@ -6,11 +6,11 @@ const Join = () => {
     <div className="py-20 w-full overflow-hidden">
       <div className="w-11/12 md:w-10/12 lg:w-[1100px] mx-auto flex justify-center items-start flex-col space-y-8 mb:space-y-16">
         <h1 className="hero-title bg-gradient-to-r from-secondary to-neutral pb-4">
-          <span className="text-[4rem] md:text-[8rem] lg:text-[10rem] leading-[4.5rem] md:leading-[8rem] lg:leading-[10rem]">
+          <span className="text-[4rem] md:text-[8rem] lg:text-[10rem] leading-[4rem] md:leading-[8rem] lg:leading-[8rem]">
             Join the
           </span>
           <br />
-          <span className="text-[4rem] md:text-[8rem] lg:text-[10rem] xl:text-[13rem] leading-[4.5rem] md:leading-[8rem] lg:leading-[10rem] xl:leading-[13rem]">
+          <span className="text-[4rem] md:text-[8rem] lg:text-[10rem] xl:text-[13rem] leading-[4rem] md:leading-[8rem] lg:leading-[10rem] xl:leading-[12rem]">
             ecosystem
           </span>
         </h1>

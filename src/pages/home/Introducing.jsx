@@ -1,11 +1,11 @@
 import space2 from "../../assets/space2.jpg";
 import color from "../../assets/color.json";
 import Lottie from "lottie-react";
-import bounce from "../../assets/bounce.json";
+import road from "../../assets/road.json";
 
 const Introducing = () => {
   return (
-    <div className="pt-20 pb-60 w-full overflow-hidden">
+    <div className="pt-20 pb-60 w-full relative">
       <div className="w-11/12 md:w-10/12 lg:w-[1100px] mx-auto flex justify-center items-start flex-col space-y-8 mb:space-y-16 ">
         <div className="w-full text-center space-y-5">
           <h2 className="text-4xl md:text-5xl font-medium">
@@ -78,9 +78,17 @@ const Introducing = () => {
             </div>
           </div>
           <div className="absolute top-[98%]  left-5 md:left-20 right-5  md:right-20 flex justify-center items-center bg-[#ffeae5]">
-            <Lottie className="w-full !h-[300px]" animationData={bounce} />
+            <Lottie className="w-full !h-[300px]" animationData={road} />
           </div>
         </div>
+      </div>
+      <div className="absolute w-full bottom-0 border-b border-dashed">
+        <h2
+          className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-2xl font-bold text-white bg-primary rounded-full px-4 py-2 "
+          style={{ fontFamily: "Lobster, sans-serif" }}
+        >
+          Cribby.
+        </h2>
       </div>
     </div>
   );
