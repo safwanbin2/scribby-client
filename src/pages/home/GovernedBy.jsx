@@ -86,11 +86,11 @@ const GovernedBy = () => {
       <div className="py-20 bg-secondary  flex justify-center items-center flex-col overflow-hidden space-y-12">
         <div className="w-11/12 md:w-10/12 lg:w-[1100px] mx-auto flex justify-center items-start flex-col space-y-16">
           <h1 className="text-white">
-            <span className="text-[4.5rem] md:text-[8rem] lg:text-[10rem] leading-[4.5rem] md:leading-[8rem] lg:leading-[10rem]">
+            <span className="text-[4rem] md:text-[8rem] lg:text-[10rem] leading-[4.5rem] md:leading-[8rem] lg:leading-[10rem]">
               Join the
             </span>
             <br />
-            <span className="text-[4.5rem] md:text-[8rem] lg:text-[10rem] xl:text-[12rem] leading-[4.5rem] md:leading-[8rem] lg:leading-[10rem] xl:leading-[12rem]">
+            <span className="text-[3.5rem] md:text-[8rem] lg:text-[10rem] xl:text-[12rem] leading-[3.5rem] md:leading-[8rem] lg:leading-[10rem] xl:leading-[12rem]">
               Community
             </span>
           </h1>
