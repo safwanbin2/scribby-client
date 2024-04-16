@@ -90,7 +90,7 @@ const GovernedBy = () => {
               Join the
             </span>
             <br />
-            <span className="text-[4.5rem] md:text-[8rem] lg:text-[10rem] xl:text-[13rem] leading-[4.5rem] md:leading-[8rem] lg:leading-[10rem] xl:leading-[13rem]">
+            <span className="text-[4.5rem] md:text-[8rem] lg:text-[10rem] xl:text-[12rem] leading-[4.5rem] md:leading-[8rem] lg:leading-[10rem] xl:leading-[12rem]">
               Community
             </span>
           </h1>
