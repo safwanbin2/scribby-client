@@ -1,8 +1,6 @@
-import React from "react";
 import Lottie from "lottie-react";
 import ocean from "../../assets/ocean.json";
 import travel from "../../assets/travel.json";
-import { IoMdSend } from "react-icons/io";
 
 const GovernedBy = () => {
   return (
